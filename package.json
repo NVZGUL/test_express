@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.15.3"
+  "repository": {
+    "type": "git",
+    "url": "npm init -y"
   },
-  "devDependencies": {
-    "nodemon": "^1.11.0"
-  }
+  "author": "",
+  "license": "ISC"
 }
